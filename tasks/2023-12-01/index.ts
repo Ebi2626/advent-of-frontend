@@ -34,7 +34,6 @@ export class GiftRegistry {
         } else {
             this._giftRegistry.push({childId, gifts: [gift]});
         }
-        
     }
 
     public removeGift(childId: number, gift: string): void {
